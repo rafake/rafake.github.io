@@ -57,6 +57,58 @@ body {
 	-webkit-text-size-adjust: none;
 }
 
+#intro {
+	position: relative;
+	z-index: 50;
+}
+
+#intro h1 {
+	z-index: 55;
+
+}
+
+#intro h2 {
+	z-index: 54;
+}
+#intro p {
+	z-index: 53;
+}
+
+#intro ul li a {
+	z-index: 52;
+}
+
+#intro video {
+	object-fit: cover;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 0;
+}
+
+.overHero {
+	z-index: 100;
+}
+
+#intro video:before {
+	content: "";
+	background: black;
+	opacity: 0.6;
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 30;
+}
+
+@media screen and (max-width: 1160px) {
+	#intro video {
+	display: none;
+}
+}
+
 mark {
 	background-color: transparent;
 	color: inherit;
