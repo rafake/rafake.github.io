@@ -3391,6 +3391,22 @@ vertical-align: middle;
 		min-height: 100vh;
 	}
 
+	/*#intro:after {*/
+	/*	content: "";*/
+	/*	position: absolute;*/
+	/*	left: 0;*/
+	/*	top: 0;*/
+	/*	width: 100%;*/
+	/*	height: 100vh;*/
+	/*	!* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#999999+0,fca744+100 *!*/
+	/*	background: rgb(153,153,153); !* Old browsers *!*/
+	/*	background: -moz-linear-gradient(bottom,  rgba(153,153,153,0.1) 0%, rgba(252,167,68,0.1) 60%, rgba(252,167,68,0.1) 100%); !* FF3.6-15 *!*/
+	/*	background: -webkit-linear-gradient(bottom,  rgba(153,153,153,0.1) 0%,rgba(252,167,68,0.1) 60%, rgba(252,167,68,0.1) 100%); !* Chrome10-25,Safari5.1-6 *!*/
+	/*	background: linear-gradient(to top,  rgba(153,153,153,0.1) 0%,rgba(252,167,68,0.1) 60%, rgba(252,167,68,0.1) 100%); !* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ *!*/
+	/*	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#999999', endColorstr='#fca744',GradientType=0 ); !* IE6-9 *!*/
+
+	/*}*/
+
 		#intro input, #intro select, #intro textarea {
 			color: #ffffff;
 		}
@@ -3464,7 +3480,7 @@ vertical-align: middle;
 				}
 
 		#intro h1 {
-			font-size: 5rem;
+			font-size: 7rem;
 			line-height: 1;
 		}
 
@@ -3552,7 +3568,7 @@ vertical-align: middle;
 			}
 
 				#intro h1 {
-					font-size: 3.25rem;
+					font-size: 4.25rem;
 					line-height: 1.1;
 					margin-bottom: 1rem;
 				}
@@ -4765,3 +4781,26 @@ vertical-align: middle;
 		}
 
 	}
+
+p {
+	font-family: Montserrat, sans-serif;
+}
+
+a {
+	font-family: Montserrat, sans-serif;
+}
+
+.mainPage__logo--h1 {
+	/*color: #FF5615;*/
+}
+
+.myProjects__techContainer {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 15px;
+}
+.techIco {
+	padding: 10px;
+}
